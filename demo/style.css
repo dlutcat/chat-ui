@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    padding:0px;
+    margin:0px;
+    font-size:12px;
+    font-family:'宋体',Arial, Helvetica, sans-serif;
+    color:#333;
+}
+h1,h2,h3,ul,dl,dt,dd,form,p{
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    list-style:none;
+}
+img{
+    border:0px;
+}
+
+/* bottom bar. By Patto */
+#bottom_bar {
+    display: none;
+    bottom: 0;
+    left: 10px;
+    margin: 0 auto;
+    position: fixed;
+    right: 10px;
+    z-index: 1000;
+}
+.webpager {
+    background-color: #F8F8F8;
+    border-left: 1px solid #B4B4B4;
+    border-top: 1px solid #B4B4B4;
+    border-right: 1px solid #B4B4B4;
+    height: 24px;
+    position: relative;
+    word-wrap: break-word;
+    z-index: 10000;
+}
+.bar_button {
+    width:150px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    border-left:1px solid #b4b4b4;
+}
+.bar_button1{
+    width:140px;
+    height: 20px;
+    padding: 5px 5px 0px 5px;
+    background-color:#f8f8f8;
+    z-index:10;
+}
+.bar_bgcolor{
+    background-color:#f8f8f8;
+}
+.bar_buttonactive{
+    position:absolute;
+    top:-1px;
+    border-top:1px solid #f8f8f8;
+}
+.bar_buttonawoke{
+    background:url(../images/chat_awoke.gif) repeat-x bottom;
+}
+.bar_button .Eclose,.bar_button .Ebig,.bar_button .Esmall{
+    display:inline-block;
+    width:11px;
+    height:14px;
+    padding:0px 2px;
+    background:url(../images/icon_chat.gif) no-repeat 4px -50px;
+}
+.bar_button .Ebig{
+    background:url(../images/icon_chat.gif) no-repeat 0px -32px;
+}
+.bar_button .Esmall{
+    background:url(../images/icon_chat.gif) no-repeat 2px -20px;
+}
+.bar_button .Esmall:hover,.bar_button .Eclose:hover{
+    background-color:#fff;
+}
+.icon_chat,.icon_chathistory,.bar_bgcolor .Ejiantou_bottom{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    background:url(../images/icon_chat.gif) no-repeat -26px 0px;
+}
+.bar_bgcolor .Ejiantou_bottom{
+    background:url(../images/icon_chat.gif) no-repeat 0px -135px;
+}
+.icon_chathistory{
+    background:url(../images/icon_chat.gif) no-repeat 0px 0px;
+}
+.chat_con{
+    width:320px;
+    height:400px;
+    border:1px solid #adadad;
+    position:absolute;
+    bottom:25px;
+    *bottom:25px!important;
+    *bottom:24px;
+    right:-1px;
+    background-color:#fff;
+}
+.chat_con .jiantou_bom,.chat_con .jiantou_right{
+    display:inline-block;
+    width:10px;
+    height:12px;
+    background:url(../images/icon_chat.gif) no-repeat 0px -64px;
+}
+.chat_con .jiantou_right{
+    margin-top:2px;
+    background:url(../images/icon_chat.gif) no-repeat 0px -76px;
+}
+.chat_con .Etitle{
+    background:url(../images/chat_titlebg.gif) repeat-x;
+    height:20px;
+    line-height:17px;
+    *line-height:20px;
+    padding:3px 10px 0px;
+    border-bottom:1px solid #adadad;
+}
+
+.chat_con .Emar20{
+    display:inline;
+    margin-bottom:0px;
+    margin-top:10px;
+    margin-right:0px;
+}
+.chat_con .chat_sendinfor{
+    width:320px;
+    height:150px;
+    background-color:#f3f3f3;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+.chat_con .chat_sendinfor .Esubmit{
+    display:inline-block;
+    width:55px;
+    height:26px;
+    background:url(../images/icon_chat.gif) no-repeat 0px -100px;
+}
+.chat_con .chat_sendinfor .Etextareabor{
+    width:320px;
+    height:80px;
+    background-color:#fff;
+    border-top:1px solid #adadad;
+    border-bottom:1px solid #adadad;
+}
+.chat_con .chat_sendinfor .Etextareabor textarea{
+    width:316px;
+    height:76px;
+    border:0px;
+}
+.chat_con .Ewidth280{
+    width:280px;
+}
+.chat_con .Ewidth150{
+    width:150px;
+}
+.icon_people{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:url(../images/icon_chat.gif) no-repeat -56px -2px;
+}
+#bottom_bar .Ewidth200{
+    width:200px;
+}
+.Escroll_y{
+    overflow-y:scroll;
+}
+.Eheight225{
+    height:225px;
+}

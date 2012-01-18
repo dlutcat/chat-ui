@@ -1,12 +1,16 @@
 A facebook like webIM based on XMPP
-===================================
+===
 
-1. Features  
+* Features  
+---
 
-2. INSTALL  
+* INSTALL  
+---
 
-3. DEPENDENCIES  
-   1. mustache.js[https://mustache.github.com]
-   2. Strophe.js[http://strophe.im/strophejs/]
+* DEPENDENCIES  
+---
+   1. [mustache.js](https://mustache.github.com): A simple JavaScript template.
+   2. [Strophe.js](http://strophe.im/strophejs/): A javaScript lib for XMPP protocal.
 
-4. DEMO  
+* DEMO  
+---
